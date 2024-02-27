@@ -1,0 +1,7 @@
+form{
+    border: solid 1px black;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    background-color: aqua;
+}
