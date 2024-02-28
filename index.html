@@ -10,34 +10,33 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>IMC:</h1>
-        <Form>
-            <div class="row">
-                <div class="col-6 bg-info">
-
-                    <label for="altura">digite sua altura:</label>
-                    <br>
-                    <input type="number">
-
-                </div>
-
-                <div class="col-6 bg-info">
-
-                    <label for="peso"> digite seu peso:</label>
-                    <br>
-                    <input type="number">
-
-                </div>
-                <h3>O seu IMC é:</h3>
-                <h3>xxxxx</h3>
-            </div>
-           
-        </Form>
-        
+    <div class="row">
+        <div class="col-md-2 bg-info">
+            <h1>Dados Pessoais</h1>
+            <Form>
+                <h1>IMC</h1>
+                <label>Peso:</label><br>
+                <input type="number" placeholder="5.23 Kg" id="peso">
+                <label>Altura:</label><br>
+                <input type="number" placeholder="1.50" id="altura"><br>
+                <button onclick="calcular()">Calcular</button>
+            </Form>
+            <hr>
+            <table>
+                <tr>
+                    <th>Peso</th>
+                    <th>Altura</th>
+                    <th>IMC</th>
+                </tr>
+                <tr>
+                    <td>resultado</td>
+                    <td>resultado2</td>
+                    <td>resultado3</td>
+                </tr>
+            </table>
+        </div>
     </div>
 
 </body>
-
 
 </html>
